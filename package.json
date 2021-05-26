@@ -1,0 +1,25 @@
+{
+  "name": "devicewise-nodejs",
+  "version": "1.1.14",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "graylog2": "^0.2.1",
+    "rimraf": "^3.0.2"
+  },
+  "description": "deviceWISE NodeJS bundle",
+  "homepage": "https://github.com/telit/devicewise-nodejs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telit/devicewise-nodejs.git"
+  },
+  "keywords": [
+    "devicewise",
+    "telit",
+    "nodejs",
+    "javascript"
+  ]
+}
