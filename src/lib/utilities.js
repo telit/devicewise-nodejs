@@ -89,6 +89,7 @@ async function addLog(message, success, facility, info) {
   } catch (e) {
     console.error(e);
   }
+  logger.close();
   return response;
 }
 
